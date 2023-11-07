@@ -1,0 +1,16 @@
+Install (install earlier new version of node.js using nvm)
+
+  npm install -g browser-sync
+
+Check
+
+  browser-sync --version 
+
+Create directory
+
+  test_site
+
+Start in the directory
+
+  browser-sync start --server --directory "*"
+
